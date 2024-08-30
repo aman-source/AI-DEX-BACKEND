@@ -16,7 +16,7 @@ def get_function_based_conversation(text):
                   You help users to get the function based conversation
                   you are crypto bot and help in selling and buying of cryptocurrencies
   '''
-  # openai.api_key = "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"
+  openai.api_key = "API_KEY"
   client = OpenAI(
      api_key="OPEN_AI_KEY"
   )
